@@ -1,24 +1,46 @@
-# C / C++ Öğrenme Depom
+# Merhaba, ben Arda! 👋
 
-Merhaba! Ben Arda. Trakya Üniversitesi Bilgisayar Programcılığı öğrencisiyim.
+🎓 **Trakya Üniversitesi — Bilgisayar Programcılığı öğrencisiyim.**
 
-Bu depoda programlama öğrenirken geliştirdiğim küçük uygulamaları ve pratik çalışmalarımı paylaşıyorum.
+Programlama öğrenme sürecimde öğrendiklerimi küçük ve işlevsel projelere dönüştürüyorum. Bu depoda C diliyle geliştirdiğim uygulamaları, denemelerimi ve ilerlememi paylaşıyorum.
 
-## Projeler
+## 🧑‍💻 Kullandığım ve öğrendiğim teknolojiler
+- **C** — şu anda üzerinde çalıştığım ana programlama dili
+- **C++** — temel seviyede çalışmalar
+- **Git & GitHub** — projelerimi sürüm kontrolüyle düzenleme
 
-### 1. Market Kasa Sistemi
-C diliyle yazılmış konsol tabanlı ilk market kasa uygulamam.
+## 🚀 Projelerim
 
+### 1. ATM Bankacılık Uygulaması
+C diliyle geliştirdiğim menü tabanlı ilk projelerimden biri.
+
+**Özellikler**
+- Başlangıç bakiyesini görüntüleme
+- Para yatırma
+- Para çekme
+- Yetersiz bakiye kontrolü
+- Menü üzerinden işlem seçme ve programdan çıkış
+
+**Çalıştığım konular:** değişkenler, koşullar (if-else), switch-case ve while döngüsü.
+
+📁 [ATM Projesi açıklaması](./atm-projesi/)
+
+### 2. Market Kasa Sistemi
+C diliyle geliştirdiğim konsol tabanlı market kasa uygulaması.
+
+**Mevcut özellikler**
 - Ürün fiyatı ekleme
-- Toplam tutarı görüntüleme
-- Ödeme ve para üstü hesaplama
+- Sepet toplamını görüntüleme
+- Ödeme alma
+- Fazla ödemede para üstü hesaplama
+- Ödeme tamamlanınca toplamı sıfırlama
+
+**Çalıştığım konular:** değişkenler, kullanıcıdan veri alma, switch-case, while ve koşullar.
 
 📁 [Market Kasa Sistemi](./market-kasa-sistemi/)
 
-## Öğrenme hedeflerim
-- C programlama
-- Programlama mantığı ve algoritmalar
-- Problem çözme
-- Git ve GitHub kullanımı
+## 🎯 Hedefim
+Düzenli pratik yaparak programlama mantığımı geliştirmek, yeni projeler üretmek ve öğrendiklerimi gerçek uygulamalara dönüştürmek.
 
-> Bu depo öğrenme sürecimde yaptığım çalışmalarla düzenli olarak güncellenecektir.
+---
+*Bu profil, yazılım öğrenme yolculuğumdaki çalışmalarla güncellenecek.*
