@@ -1,6 +1,6 @@
 # ATM Bankacılık Uygulaması
 
-C diliyle geliştirdiğim menü tabanlı ATM simülasyonu. Kullanıcı, ekrandaki menüden işlem seçerek bakiyesini yönetebilir.
+C'nin temel giriş/çıkış komutları ve kontrol yapıları kullanılarak hazırlanmış menü tabanlı ATM simülasyonu.
 
 ## Özellikler
 - Başlangıç bakiyesi: 1000
@@ -8,15 +8,40 @@ C diliyle geliştirdiğim menü tabanlı ATM simülasyonu. Kullanıcı, ekrandak
 - Para yatırma
 - Para çekme
 - Bakiyeden fazla para çekilmesini engelleme
-- İşlem menüsünü döngüyle tekrar gösterme
-- Çıkış seçeneği
+- Menü döngüsü ve çıkış seçeneği
 
-## Öğrenilen konular
-- Değişken tanımlama
-- printf ve scanf ile giriş/çıkış
-- if-else koşulları
-- switch-case ile menü yönetimi
-- while döngüsü
+## Kullanılan konular
+- Değişkenler
+- `printf` ve `scanf`
+- `if-else`
+- `switch-case`
+- `while`
+
+## Örnek kullanım
+
+Aşağıdaki örnekte kullanıcı 200 birim para yatırır ve ardından bakiyesini görüntüler:
+
+```text
+Islem seciniz:
+1- Para yatirma
+2- Para cekme
+3- Bakiye ogrenme
+4- Cikis
+1
+yatirmak istedigiz tutar
+200
+bakiyeniz:1200.00
+Islem seciniz:
+1- Para yatirma
+2- Para cekme
+3- Bakiye ogrenme
+4- Cikis
+3
+1200.00
+```
+
+## Dosyalar
+- [atm.cpp](./atm.cpp) — Projenin kaynak kodu.
 
 ## Durum
-İlk C projelerimden biri olarak tamamlandı. Bu dosya proje açıklamasıdır; kaynak kod ayrıca eklendiğinde buraya bağlanacaktır.
+Tamamlandı. İleride para yatırma işlemi için de tutar doğrulaması eklenebilir.
